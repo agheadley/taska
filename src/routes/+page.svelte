@@ -14,15 +14,7 @@
 	<div class="col-3">
 		<h4> / TASKA</h4>
 	</div>
-	<div class="col-3">
-		<h4> / TASKA</h4>
-	</div>
-	<div class="col-3">
-		<h4> / TASKA</h4>
-	</div>
-	<div class="col-3">
-		<h4> / TASKA</h4>
-	</div>
+	
 </div>
 
 <p>
