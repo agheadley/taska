@@ -12,9 +12,8 @@
 
 <div class="row">
 	<div class="col-3">
-		<h4> / TASKA</h4>
+		<h4>taska</h4>
 	</div>
-	
 </div>
 
 <p>
