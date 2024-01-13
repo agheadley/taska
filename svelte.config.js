@@ -1,6 +1,7 @@
-import adapter from '@sveltejs/adapter-auto';
+//import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
+/*
 const config = {
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
@@ -9,5 +10,17 @@ const config = {
 		adapter: adapter()
 	}
 };
+*/
 
-export default config;
+//export default config;
+
+import adapter from '@sveltejs/adapter-vercel';
+
+export default {
+	kit: {
+		adapter: adapter({
+			// see below for options that can be set here
+		})
+	}
+};
+
