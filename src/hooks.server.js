@@ -4,6 +4,9 @@ import Google from "@auth/core/providers/google";
 
 //export const handle = SvelteKitAuth({ providers: [Google({ clientId: GOOGLE_CLIENT_ID, clientSecret: GOOGLE_CLIENT_SECRET })] });
 
+
+/* https://github.com/nextauthjs/next-auth/issues/9436 */
+/* is adding the AUTH_SECRET safe? */
 export const handle = SvelteKitAuth({ 
     providers: [Google({ clientId: GOOGLE_CLIENT_ID, clientSecret: GOOGLE_CLIENT_SECRET })] ,
     trustHost: true,
